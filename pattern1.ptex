@@ -946,7 +946,7 @@
 			"name": "Material",
 			"node_position": {
 				"x": 2348.93872070313,
-				"y": -712.678039550781
+				"y": -714.730712890625
 			},
 			"parameters": {
 				"albedo_color": {
@@ -2251,7 +2251,7 @@
 			"generic_size": 1,
 			"name": "blend2_5",
 			"node_position": {
-				"x": 1224.36340332031,
+				"x": 1225.63793945313,
 				"y": -2058.50708007813
 			},
 			"parameters": {
@@ -2409,7 +2409,7 @@
 			"name": "adjust_hsv_3",
 			"node_position": {
 				"x": 2023.52136230469,
-				"y": -1460.78002929688
+				"y": -1463.583984375
 			},
 			"parameters": {
 				"hue": 0.0,
@@ -2479,7 +2479,7 @@
 				"folds": 0.0,
 				"iterations": 5.0,
 				"lacunarity": 3.0,
-				"noise": 2,
+				"noise": 2.0,
 				"offset": "$time",
 				"persistence": 0.5,
 				"scale_x": 10.0,
@@ -2495,10 +2495,10 @@
 				"y": -3200.75805664063
 			},
 			"parameters": {
-				"param0": 11,
+				"param0": 11.0,
 				"param1": 0.0,
 				"param2": 14.0,
-				"param3": 1
+				"param3": 1.0
 			},
 			"seed_int": 0,
 			"type": "multi_warp"
@@ -2585,7 +2585,7 @@
 			},
 			"parameters": {
 				"amount1": 0.26,
-				"blend_type1": 0
+				"blend_type1": 0.0
 			},
 			"seed_int": 0,
 			"type": "blend2"
@@ -2624,8 +2624,8 @@
 		{
 			"name": "voronoi2",
 			"node_position": {
-				"x": -3870.13598632813,
-				"y": 912.309875488281
+				"x": -3890.13598632813,
+				"y": 576.309875488281
 			},
 			"parameters": {
 				"intensity": 1.0,
@@ -2641,8 +2641,8 @@
 		{
 			"name": "invert_6",
 			"node_position": {
-				"x": -3623.56201171875,
-				"y": 911.927001953125
+				"x": -3643.56201171875,
+				"y": 575.927001953125
 			},
 			"parameters": {
 
@@ -2653,14 +2653,14 @@
 		{
 			"name": "math_13",
 			"node_position": {
-				"x": -3473.22387695313,
-				"y": 912.884521484375
+				"x": -3493.22387695313,
+				"y": 576.884521484375
 			},
 			"parameters": {
 				"clamp": false,
 				"default_in1": 0.0,
 				"default_in2": 0.25,
-				"op": 2
+				"op": 2.0
 			},
 			"seed_int": 0,
 			"type": "math"
@@ -2668,14 +2668,14 @@
 		{
 			"name": "math_14",
 			"node_position": {
-				"x": -3473.22387695313,
-				"y": 1064.62524414063
+				"x": -3493.22387695313,
+				"y": 728.625244140625
 			},
 			"parameters": {
 				"clamp": false,
 				"default_in1": 0.0,
 				"default_in2": 0.37,
-				"op": 2
+				"op": 2.0
 			},
 			"seed_int": 0,
 			"type": "math"
@@ -2683,14 +2683,14 @@
 		{
 			"name": "math_15",
 			"node_position": {
-				"x": -3473.22387695313,
-				"y": 1212.82568359375
+				"x": -3493.22387695313,
+				"y": 876.82568359375
 			},
 			"parameters": {
 				"clamp": false,
 				"default_in1": 0.0,
 				"default_in2": 0.3,
-				"op": 2
+				"op": 2.0
 			},
 			"seed_int": 0,
 			"type": "math"
@@ -2698,14 +2698,14 @@
 		{
 			"name": "math_16",
 			"node_position": {
-				"x": -3473.22387695313,
-				"y": 1364.56640625
+				"x": -3493.22387695313,
+				"y": 1028.56640625
 			},
 			"parameters": {
 				"clamp": false,
 				"default_in1": 0.0,
 				"default_in2": 0.2,
-				"op": 2
+				"op": 2.0
 			},
 			"seed_int": 0,
 			"type": "math"
@@ -2713,13 +2713,13 @@
 		{
 			"name": "shape",
 			"node_position": {
-				"x": -3473.22387695313,
-				"y": 765.419067382813
+				"x": -3493.22387695313,
+				"y": 429.419067382813
 			},
 			"parameters": {
 				"edge": 1.0,
 				"radius": 0.85,
-				"shape": 0,
+				"shape": 0.0,
 				"sides": 2.0
 			},
 			"seed_int": 0,
@@ -2728,14 +2728,14 @@
 		{
 			"name": "math_17",
 			"node_position": {
-				"x": -3215.056640625,
-				"y": 1366.25915527344
+				"x": -3235.056640625,
+				"y": 1030.25915527344
 			},
 			"parameters": {
 				"clamp": false,
 				"default_in1": 0.0,
 				"default_in2": "{\"connections\":[],\"nodes\":[{\"name\":\"math_14\",\"node_position\":{\"x\":-54.0,\"y\":-142.600219726563},\"parameters\":{\"clamp\":false,\"default_in1\":0.0,\"default_in2\":0.37,\"op\":2},\"seed_int\":0,\"type\":\"math\"},{\"name\":\"math_16\",\"node_position\":{\"x\":-54.0,\"y\":157.340942382813},\"parameters\":{\"clamp\":false,\"default_in1\":0.0,\"default_in2\":0.2,\"op\":2},\"seed_int\":0,\"type\":\"math\"},{\"name\":\"math_15\",\"node_position\":{\"x\":-54.0,\"y\":5.6002197265625},\"parameters\":{\"clamp\":false,\"default_in1\":0.0,\"default_in2\":0.3,\"op\":2},\"seed_int\":0,\"type\":\"math\"},{\"name\":\"math_13\",\"node_position\":{\"x\":-54.0,\"y\":-294.340942382813},\"parameters\":{\"clamp\":false,\"default_in1\":0.0,\"default_in2\":0.25,\"op\":2},\"seed_int\":0,\"type\":\"math\"}]}",
-				"op": 1
+				"op": 1.0
 			},
 			"seed_int": 0,
 			"type": "math"
@@ -2743,8 +2743,8 @@
 		{
 			"name": "math_18",
 			"node_position": {
-				"x": -3210.26879882813,
-				"y": 1213.04821777344
+				"x": -3230.26879882813,
+				"y": 877.048217773438
 			},
 			"parameters": {
 				"clamp": false,
@@ -2758,8 +2758,8 @@
 		{
 			"name": "math_19",
 			"node_position": {
-				"x": -3207.39599609375,
-				"y": 1059.83740234375
+				"x": -3227.39599609375,
+				"y": 723.83740234375
 			},
 			"parameters": {
 				"clamp": false,
@@ -2773,8 +2773,8 @@
 		{
 			"name": "math_20",
 			"node_position": {
-				"x": -3207.39599609375,
-				"y": 911.414245605469
+				"x": -3227.39599609375,
+				"y": 575.414245605469
 			},
 			"parameters": {
 				"clamp": false,
@@ -2789,8 +2789,8 @@
 			"generic_size": 4,
 			"name": "tonality",
 			"node_position": {
-				"x": -2998.27001953125,
-				"y": 1096.90380859375
+				"x": -3018.27001953125,
+				"y": 760.90380859375
 			},
 			"parameters": {
 				"curve": {
@@ -2823,8 +2823,8 @@
 		{
 			"name": "gradient_2",
 			"node_position": {
-				"x": -2998.27001953125,
-				"y": 1271.01501464844
+				"x": -3018.27001953125,
+				"y": 935.015014648438
 			},
 			"parameters": {
 				"gradient": {
@@ -2857,8 +2857,8 @@
 		{
 			"name": "math_21",
 			"node_position": {
-				"x": -2772.66015625,
-				"y": 1067.13037109375
+				"x": -2792.66015625,
+				"y": 731.13037109375
 			},
 			"parameters": {
 				"clamp": false,
@@ -2872,8 +2872,8 @@
 		{
 			"name": "math_22",
 			"node_position": {
-				"x": -2772.66015625,
-				"y": 1367.07153320313
+				"x": -2792.66015625,
+				"y": 1031.07153320313
 			},
 			"parameters": {
 				"clamp": false,
@@ -2887,8 +2887,8 @@
 		{
 			"name": "math_23",
 			"node_position": {
-				"x": -2772.66015625,
-				"y": 1215.33081054688
+				"x": -2792.66015625,
+				"y": 879.330810546875
 			},
 			"parameters": {
 				"clamp": false,
@@ -2902,8 +2902,8 @@
 		{
 			"name": "math_24",
 			"node_position": {
-				"x": -2774.5751953125,
-				"y": 918.262329101563
+				"x": -2794.5751953125,
+				"y": 582.262329101563
 			},
 			"parameters": {
 				"clamp": false,
@@ -2918,8 +2918,8 @@
 			"generic_size": 4,
 			"name": "rotate_3",
 			"node_position": {
-				"x": -2575.02514648438,
-				"y": 1125.84753417969
+				"x": -2595.02514648438,
+				"y": 789.847534179688
 			},
 			"parameters": {
 				"cx": 0.0,
@@ -2932,8 +2932,8 @@
 		{
 			"name": "tile2x2",
 			"node_position": {
-				"x": -2380.15991210938,
-				"y": 1123.74108886719
+				"x": -2400.15991210938,
+				"y": 787.741088867188
 			},
 			"parameters": {
 
@@ -2944,12 +2944,12 @@
 		{
 			"name": "tiler_3",
 			"node_position": {
-				"x": -2252.70776367188,
-				"y": 1113.77209472656
+				"x": -2272.70776367188,
+				"y": 777.772094726563
 			},
 			"parameters": {
 				"fixed_offset": 0.06,
-				"inputs": 1,
+				"inputs": 1.0,
 				"offset": 1.17,
 				"overlap": 2.0,
 				"rotate": 0.0,
@@ -2967,11 +2967,11 @@
 		{
 			"name": "reroute_6",
 			"node_position": {
-				"x": -1927.67407226563,
-				"y": 1146.451171875
+				"x": -1947.67407226563,
+				"y": 810.451171875
 			},
 			"parameters": {
-				"preview": 0
+				"preview": 0.0
 			},
 			"seed_int": 0,
 			"type": "reroute"
@@ -2986,8 +2986,8 @@
 			},
 			"name": "comment_4",
 			"node_position": {
-				"x": -3892.1357421875,
-				"y": 693.419006347656
+				"x": -3912.1357421875,
+				"y": 357.419006347656
 			},
 			"parameters": {
 
@@ -3065,7 +3065,7 @@
 				"y": 399.1494140625
 			},
 			"text": "",
-			"title": "Colors.Bone",
+			"title": "Colors.Dirt",
 			"type": "comment"
 		},
 		{
@@ -3100,7 +3100,7 @@
 				"y": -2774.62963867188
 			},
 			"parameters": {
-				"preview": 0
+				"preview": 0.0
 			},
 			"seed_int": 0,
 			"type": "reroute"
@@ -3112,7 +3112,7 @@
 				"y": -404.244567871094
 			},
 			"parameters": {
-				"preview": 0
+				"preview": 0.0
 			},
 			"seed_int": 0,
 			"type": "reroute"
@@ -3124,7 +3124,7 @@
 				"y": -981.802673339844
 			},
 			"parameters": {
-				"preview": 0
+				"preview": 0.0
 			},
 			"seed_int": 0,
 			"type": "reroute"
